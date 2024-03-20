@@ -28,7 +28,7 @@ require (
 	github.com/gdamore/tcell/v2 v2.6.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-cmd/cmd v1.4.2
-	github.com/go-git/go-git/v5 v5.10.0
+	github.com/go-git/go-git/v5 v5.11.0
 	github.com/go-logr/zapr v1.3.0
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/gobwas/glob v0.2.3
@@ -43,14 +43,14 @@ require (
 	github.com/iancoleman/strcase v0.3.0
 	github.com/jackc/pgtype v1.14.0
 	github.com/jackc/pgx-zap v0.0.0-20221202020421-94b1cb2f889f
-	github.com/jackc/pgx/v5 v5.5.0
+	github.com/jackc/pgx/v5 v5.5.4
 	github.com/jdxcode/netrc v1.0.0
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/jwalton/gchalk v1.3.0
 	github.com/jwalton/go-supportscolor v1.2.0
 	github.com/kavu/go_reuseport v1.5.0
-	github.com/lestrrat-go/httprc v1.0.4
-	github.com/lestrrat-go/jwx/v2 v2.0.17
+	github.com/lestrrat-go/httprc v1.0.5
+	github.com/lestrrat-go/jwx/v2 v2.0.21
 	github.com/mattn/go-isatty v0.0.20
 	github.com/microsoft/go-mssqldb v1.6.0
 	github.com/minio/minio-go/v7 v7.0.64
@@ -71,7 +71,7 @@ require (
 	github.com/sony/gobreaker v0.5.0
 	github.com/sourcegraph/conc v0.3.0
 	github.com/spf13/afero v1.10.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.17.0
 	github.com/tidwall/pretty v1.2.1
 	github.com/tidwall/sjson v1.2.5
@@ -102,17 +102,17 @@ require (
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.26.0
 	gocloud.dev v0.34.0
-	golang.org/x/crypto v0.15.0
-	golang.org/x/net v0.18.0
+	golang.org/x/crypto v0.21.0
+	golang.org/x/net v0.21.0
 	golang.org/x/sync v0.5.0
 	golang.org/x/tools v0.15.0
 	gonum.org/v1/gonum v0.14.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20231120223509-83a465c0220f
 	google.golang.org/grpc v1.59.0
-	google.golang.org/protobuf v1.31.0
+	google.golang.org/protobuf v1.33.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
-	helm.sh/helm/v3 v3.13.2
+	helm.sh/helm/v3 v3.14.3
 	modernc.org/sqlite v1.27.0
 )
 
@@ -137,7 +137,6 @@ require (
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
-	github.com/acomagu/bufpipe v1.0.4 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.20.0 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.4.11 // indirect
@@ -160,7 +159,7 @@ require (
 	github.com/aws/smithy-go v1.14.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
-	github.com/cloudflare/circl v1.3.3 // indirect
+	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/containerd/console v1.0.3 // indirect
 	github.com/containerd/continuity v0.3.0 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
@@ -171,7 +170,7 @@ require (
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
 	github.com/dlclark/regexp2 v1.10.0 // indirect
 	github.com/docker/cli v24.0.6+incompatible // indirect
-	github.com/docker/docker v24.0.7+incompatible // indirect
+	github.com/docker/docker v24.0.9+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
@@ -226,7 +225,6 @@ require (
 	github.com/lithammer/fuzzysearch v1.1.8 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
-	github.com/matryer/is v1.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/mattn/go-sqlite3 v1.14.16 // indirect
@@ -241,7 +239,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0-rc5 // indirect
-	github.com/opencontainers/runc v1.1.5 // indirect
+	github.com/opencontainers/runc v1.1.12 // indirect
 	github.com/pierrec/lz4/v4 v4.1.18 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -260,10 +258,10 @@ require (
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
-	github.com/skeema/knownhosts v1.2.0 // indirect
+	github.com/skeema/knownhosts v1.2.1 // indirect
 	github.com/spf13/cast v1.5.1 // indirect
 	github.com/stoewer/go-strcase v1.3.0 // indirect
-	github.com/stretchr/objx v0.5.0 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
@@ -286,8 +284,8 @@ require (
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/oauth2 v0.13.0 // indirect
-	golang.org/x/sys v0.14.0 // indirect
-	golang.org/x/term v0.14.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/term v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/api v0.149.0 // indirect
